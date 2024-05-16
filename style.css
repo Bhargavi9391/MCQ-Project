@@ -1,0 +1,214 @@
+
+         
+          h1{
+               font-family: sans-serif;
+               color:green;
+               font-size:29px;
+               margin-top: 30px;
+               margin-left: 20px;
+          }
+          b{
+               background-color: green;
+               color: white;
+              
+          }
+          input{
+               transform: translateX(550%);
+               border: 1px solid black;
+               bottom: 30px;
+              position: relative;
+            
+              
+          }
+         
+          .fa.fa-search{
+               margin-left: 1030px;
+               font-size: 20px;
+               position: relative;
+               bottom: 30px;
+                color: rgb(17, 16, 16);
+               
+          }
+          
+          ul{
+               padding-left: 20px;
+               padding-right: 5px;
+               list-style: decimal;
+               background-color: green;
+               color: rgb(12, 11, 11);
+               margin-left: 10px;
+               margin-right: 10px;
+          }
+          li{
+               word-spacing: 20px;
+               color: rgb(2, 2, 2);
+
+          }
+          a{
+               color: white;
+               font-size: 22px;
+        
+          }
+          .section2 table {
+        width: 30%;
+        font-size: 18px;
+        margin-left: 40px;
+        margin-bottom: 5px;
+     
+     
+     
+}
+
+.section2 td {
+    padding:5px 3px;
+    
+    
+}
+
+.options-ans input[type="radio"] {
+  top:2px;
+  right:70px;
+
+
+  
+}
+.options-ans label {
+    display: inline-block;
+    font-size: 18px;
+}
+.section3 table {
+    width: 30%;
+    font-size: 18px;
+    margin-left: 40px;
+
+}
+.section3 td {
+    padding:5px 2px;
+    
+}
+.writing{
+     font-weight: bold;
+}
+.section4 table {
+    width: 30%;
+    font-size: 18px;
+    margin-left: 40px;
+
+}
+.section4 td {
+    padding:5px 2px;
+    
+}
+.section5 table {
+    width: 30%;
+    font-size: 18px;
+    margin-left: 40px;
+
+}
+.section5 td {
+    padding:5px 2px;
+    
+}
+.section6 table {
+    width: 30%;
+    font-size: 18px;
+    margin-left: 40px;
+
+}
+.section6 td {
+    padding:5px 2px;
+    
+}
+hr{
+     margin-left: 30px;
+     margin-right: 30px;
+}
+button{
+     border-radius: 5px;
+      border: 1px solid black;
+      text-align: center;
+      background-color:rgb(122, 77, 245); 
+      font-family: sans-serif;
+      font-size: larger;
+      color:aliceblue;
+      margin-top: 0;
+      margin-bottom: 50px;
+      margin-left: 600px;
+      margin-right: 30px;
+      width: 100px;
+      height: 40px; 
+      
+}
+
+     
+    
+
+.next-button{
+     border-radius: 600px;
+      border: 1px solid black;
+      text-align: center;
+      background-color:rgb(122, 77, 245); 
+      font-family: sans-serif;
+      font-size: larger;
+      color:aliceblue;
+      margin-top: 5px;
+      
+      margin-left:70px;
+      margin-right: 30px;
+      width: 90px;
+      height: 30px;
+}
+.timer {
+     font-size: 18px;
+     font-weight: bold;
+     color: red;
+     margin-top: 0; 
+     margin-left:1050px;
+     margin-top: 100px;
+    
+ }
+ .right-ans:checked + label {
+     color: green; /* Change color to green when right answer is selected */
+ }
+ 
+ .wrong-ans:checked + label {
+     color: red; /* Change color to red when wrong answer is selected */
+ }
+ .tick-symbol {
+     color: green; /* Color for the tick symbol */
+     display: none; /* Hide the tick symbol by default */
+ }
+ 
+ .right-ans:checked + label + .tick-symbol {
+     display: inline; /* Display the tick symbol when the correct answer is selected */
+ }
+
+
+ .result-box {
+    width: 500px; 
+    height: 300px; 
+    background-color:white; 
+    border: 1px solid black; 
+    padding: 20px; 
+    margin: auto; 
+    position: fixed;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.result-button {
+    
+    top: 100%;
+    left: 50%;
+    transform: translate(-450%, 20px); /* Adjust the vertical offset as needed */
+}
+p{
+    font-weight: bold;
+}
+
+
+
+
